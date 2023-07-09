@@ -37,3 +37,37 @@ While you sign in or login with your gmail account it ask you for some permissio
 ```sh
   npm start
 ```
+
+## Directory struture
+
+```bash
+.
+├── README.md
+├── app
+│   ├── api
+│   │   ├── queue.js
+│   │   └── routes.js
+│   ├── security
+│   │   └── security.js
+│   └── utils
+│       └── logger.js
+├── app.js
+├── logs
+│   ├── app.log
+│   └── error.log
+├── package-lock.json
+├── package.json
+├── public
+│   └── css
+│       ├── bootstrap-social.css
+│       └── styles.css
+└── views
+    ├── home.ejs
+    ├── login.ejs
+    ├── partials
+    │   ├── footer.ejs
+    │   └── header.ejs
+    ├── register.ejs
+    └── start-service.ejs
+
+```
