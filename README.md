@@ -28,7 +28,7 @@ While you sign in or login with your gmail account it ask you for some permissio
     CLIENT_ID=zzzzzzzzzzzzzzzz-zzzzzzz
     CLIENT_SECRET=GOkkkkkkkkkkkxkkkkkkkkxxxxxxxxxxHs
     USER_EMAIL=absc@gmail.com 
-    MONGO_URI  = 'mongodb://localhost:27017/quizapp'
+    MONGO_URI  = 'mongodb://localhost:27017/demoDB'
 ```
  a. Extra setup:
     I used redis in this project but windows don't support redis natively So you have to setup and run redis to run this application without error.
