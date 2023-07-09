@@ -12,7 +12,7 @@ global.logger = logger;
 
 
 const app = express();
-mongoose.connect("mongodb://localhost:27017/AshisAuth", {useNewUrlParser: true});
+mongoose.connect(process.env.MONGO_URI, {useNewUrlParser: true});
 
 
 app.use(express.static("public"));
