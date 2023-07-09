@@ -7,7 +7,7 @@ const apiRouter = express.Router();
 import {emailQueue} from "./queue.js";
 
 
-apiRouter.get("/inbox", authenticateAPI, async (req, res) => {
+apiRouter.get("/start", authenticateAPI, async (req, res) => {
     try {
       const { gmail, refreshToken, accessToken, email } = req; // Extract required data from req object
   
